@@ -6,6 +6,7 @@ const AppRouter = () => {
 
     const isAuth = true
     return (
+        //выбор подходящего роута
         <Switch>
             {isAuth && authRouts.map(({path,Component}) =>
             <Route path={path} component={Component} exact/>

@@ -5,6 +5,7 @@ import Shop from "./pages/Shop";
 import Auth from "./pages/Auth";
 import DevicePage from "./pages/DevicePage";
 
+//массивы разных роутов по уровню допуска
 export const authRouts=[
     {
         path: ADMIN_ROUTE,
